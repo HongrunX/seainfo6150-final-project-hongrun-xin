@@ -1,11 +1,10 @@
 import React from 'react'
-
-const Foo = () => {
+const Order = () => {
     return (
         <div>
-            The foo page
+            The Order Page!
         </div>
     )
 }
 
-export default Foo
+export default Order

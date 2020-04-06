@@ -16,11 +16,11 @@ export default class Form extends Component {
 
   render() {
     return this.state.submittedForm ? (
-      <div>Your form entry was {this.state.submittedForm.get("myText")}</div>
+      <div>Your Comment : {this.state.submittedForm.get("myText")}</div>
     ) : (
       <form onSubmit={this.onSubmit}>
         <input type="text" name="myText" />
-        <input type="submit" value="Send it" />
+        <input type="submit" value="Submit" />
       </form>
     );
   }

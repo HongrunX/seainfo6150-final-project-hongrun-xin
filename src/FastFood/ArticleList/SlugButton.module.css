@@ -1,0 +1,13 @@
+.slugButton {
+    background:rgb(204, 0, 0);
+    font-size: 100%;
+    font-style: bold;
+    color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+}

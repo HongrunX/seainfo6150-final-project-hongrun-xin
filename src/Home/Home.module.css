@@ -1,0 +1,18 @@
+.Home{
+    height: 50%;
+    display: flex;
+}
+.left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lefttop{
+    height:50%;
+    justify-content: center;
+    align-items: center;
+}
+.leftbottom{
+}
