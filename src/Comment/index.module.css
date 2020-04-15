@@ -1,0 +1,95 @@
+
+  .wrapper {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .commentInput {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .commentField {
+    margin-bottom: 15px;
+    display: flex;
+  }
+  
+  .commentField .commentFieldName {
+    display: flex;
+    flex-basis: 100px;
+    font-size: 14px;
+  }
+  
+  .commentField .commentFieldInput {
+    display: flex;
+    flex: 1;
+  }
+  
+  .commentFieldInput input,
+  .commentFieldInput textarea {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    resize: none;
+    flex: 1;
+  }
+  
+  .commentFieldInput textarea {
+    height: 100px;
+  }
+  
+  .commentFieldButton {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .commentFieldButton button {
+    padding: 5px 10px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    background-color:purple;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .commentFieldButton button:active {
+    background: purple;
+  }
+  
+
+  .commentList {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .comment {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: px;
+  }
+  
+  .comment .commentUser {
+    flex-shrink: 0;
+  }
+  
+  .comment span {
+    color: purple;
+    font-style: italic;
+  }
+  
+  .comment p {
+    margin: 0;
+  }

@@ -8,7 +8,7 @@ const SlugButton = props => {
     <Link
       className={styles.slugButton}
       to={{
-        pathname:"/Order",
+        pathname:"/Chinese/Food",
         state:{
           storeData:props
         }

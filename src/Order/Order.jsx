@@ -1,10 +1,14 @@
 import React from 'react'
-const Order = () => {
+
+const Food = props => {
+    let storeData= props.location.state.storeData;
+    console.log(storeData);
     return (
         <div>
-            The Order Page!
+            <h1>{storeData.slug}</h1>
         </div>
     )
 }
 
-export default Order
+
+export default Food

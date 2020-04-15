@@ -1,9 +1,9 @@
 import React from 'react'
-
 const Error = () => {
     return (
         <div>
-            The error page
+            <img src="/images/error.png" alt="error" />
+
         </div>
     )
 }

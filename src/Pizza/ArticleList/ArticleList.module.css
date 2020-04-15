@@ -23,13 +23,13 @@
 
 @media(min-width: 600px){
     .container{
-        background-color: black;
+        background-color: purple;
         grid-template-columns: auto;
     }
 }
 @media(min-width: 800px){
     .container{
-        background-color: yellow;
+        background-color: purple;
         grid-template-columns: auto auto;
     }
 }
